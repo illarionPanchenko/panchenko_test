@@ -1,0 +1,13 @@
+.list-group-item{
+    width:500px;
+
+}
+.grey{
+    background-color: grey;
+}
+.list-group{
+
+}
+ol{
+    list-style-type: circle;
+}
