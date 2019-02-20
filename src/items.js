@@ -15,7 +15,7 @@ const Items =({data})=>{
             </li>
         )
     });
-   //console.log(data);
+
     return(
         <ul className='list-group'>
             {elements}

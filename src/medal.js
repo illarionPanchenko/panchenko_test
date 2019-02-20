@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Medal.css";
 
+
 export default class Medal extends React.Component{
     render() {
         let medal;

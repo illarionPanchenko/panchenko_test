@@ -13,7 +13,6 @@ export default class App extends Component {
         change: -1,
         changeName: 1,
     };
-
     search(items, term) {
         if (term.length === 0){
             return items;
