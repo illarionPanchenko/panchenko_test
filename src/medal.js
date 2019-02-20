@@ -3,6 +3,8 @@ import "./Medal.css";
 
 
 export default class Medal extends React.Component{
+
+
     render() {
         let medal;
         if(this.props.data.pageviews > 990000){
