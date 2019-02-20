@@ -1,7 +1,7 @@
 .App{
-    height: 2000px;
+    height: 100%;
     width: 100%;
-    background-image: linear-gradient(rebeccapurple, white);
+    background-image: linear-gradient(#400080, #f2e6ff);
 
 }
 .block1{
@@ -23,5 +23,12 @@
 }
 .btn{
     width: 500px;
-    border-radius: 0px;
+    border-radius: 0;
+    color: aliceblue;
+}
+.btn1{
+    background-color:#e88888;
+}
+.btn2{
+    background-color:#8b88e8;
 }

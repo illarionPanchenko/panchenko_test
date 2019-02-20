@@ -20,7 +20,6 @@ export default  class Item extends React.Component {
          return color;
      };
 
-        console.log(randomColor());
         const ava=()=>{
           return {backgroundColor: randomColor()}
         };

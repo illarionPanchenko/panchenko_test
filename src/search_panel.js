@@ -12,20 +12,15 @@ class SearchPanel extends React.Component{
         this.setState({term});
         this.props.onSearch(term)
     };
-    icon(){
-
-    }
-
 
     render() {
         return(
-            <div className="d-flex">
-                <input className='search' placeholder= "      поиск авторов по имени"
+            <div className="divInput">
+                <input type = "text" className='search' placeholder= "Поиск авторов по имени"
                 value={this.state.term}
                        onChange={this.onSearch}
                 />
-
-
+                <i className="fa fa-search" />
             </div>
         )
     }

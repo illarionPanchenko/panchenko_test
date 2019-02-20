@@ -66,8 +66,6 @@ export default class App extends Component {
 
   render() {
 
-
-
       const visibleItems = this.search(data, this.state.term).sort(
           (a,b) => {
             if(this.state.changeName===1)  {
@@ -95,10 +93,10 @@ export default class App extends Component {
               onSearch = {this.onSearch}
               /></div>
           <div className='buttonBlock'>
-              <button className='btn btn-success' onClick={this.Change}>Направление cортировки по просмотрам</button>
+              <button className='btn btn1' onClick={this.Change}>Направление cортировки по просмотрам</button>
           </div>
           <div className='buttonBlock'>
-              <button className='btn btn-danger' onClick={this.ChangeName}>Направление cортировки по имени</button>
+              <button className='btn btn2' onClick={this.ChangeName}>Направление cортировки по имени</button>
           </div>
           <div className="block2">
               <Items data = {visibleItems}/>

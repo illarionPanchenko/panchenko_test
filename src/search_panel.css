@@ -5,6 +5,20 @@
     background-color: lavender;
     border-radius: 15px 15px 0px 0px;
     border:1px solid lightgray;
+}
+.divInput input[type=text]{
+    padding-left: 40px;
+}
+.divInput{
     position: relative;
 }
-
+.divInput i{
+    position: absolute;
+    top: 49px;
+    left: 0;
+    padding-left: 8px;
+    color: #aaa;
+}
+.divInput input[type=text]:focus + i{
+    color: dodgerblue;
+}
